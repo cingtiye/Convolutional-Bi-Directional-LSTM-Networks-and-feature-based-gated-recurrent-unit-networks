@@ -1,0 +1,1 @@
+Reproduce the models from paper 1 <<Learning to Monitor Machine Health with Convolutional Bi-Directional LSTM Networks>> and paper 2 <<Machine health monitoring using local feature-based gated recurrent unit networks>> by tensorflow
