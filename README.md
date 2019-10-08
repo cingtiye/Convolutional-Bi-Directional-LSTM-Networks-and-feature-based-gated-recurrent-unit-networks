@@ -8,5 +8,5 @@ Two model need install tensorflow-gpu (>=1.10.0) before you run. you can run two
 	python main_test.py
 respectively in under two folders.
 
-**if you want to learn more about two model details, you can write your questions or browse my blog. I just reproduce two papers, and i am not the author.**
+**if you want to learn more about two model details, you can write your questions or browse my [blog](https://www.jianshu.com/p/c1ae4f609691). I just reproduce two papers, and i am not the author.**
 
