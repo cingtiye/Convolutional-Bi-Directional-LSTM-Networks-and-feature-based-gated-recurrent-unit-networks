@@ -69,7 +69,7 @@ class CBLSTM(object):
         else:
             self.softmax_y = tf.nn.softmax(fc_out, axis=1)
             self.pred = tf.argmax(self.softmax_y, axis=1)
-            self.cost = -1 * tf.reduce_mean(tf.multiply(self.y, tf.log(self.softmax_y + 1e-8)))
+            self.cost = -1 * tf.reduce_mean(tf.reduce_sum(tf.multiply(self.y, tf.log(self.softmax_y + 1e-8)),1))
         self.train_op = tf.train.RMSPropOptimizer(learning_rate=0.0001).minimize(self.cost)
 
     def train_model(self,
